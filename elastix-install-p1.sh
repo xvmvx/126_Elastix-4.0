@@ -11,7 +11,7 @@ fi
 if [ -e Elastix-4.0.74-Stable-x86_64-bin-10Feb2016.iso ]; then
 	echo "ISO is already avalible. Skipping download"
 else
-	wget https://kent.dl.sourceforge.net/project/vaak/Elastix/4/Elastix-4.0.74-Stable-x86_64-bin-10Feb2016.iso
+	wget https://sourceforge.net/projects/vaak/files/Elastix/4/Elastix-4.0.74-Stable-x86_64-bin-10Feb2016.iso/download
 fi
 if [ -e /etc/yum.repos.d/commercial-addons.repo ]; then
 	echo "Seems to have an Install attemt that failed. Clean up yum"
